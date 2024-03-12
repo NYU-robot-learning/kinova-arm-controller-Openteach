@@ -1,5 +1,5 @@
 # Kinova Arm Controller - OpenTeach
-This repository contains the information to setup the ROS Noetic based controller part of [OpenTeach](https://arxiv.org/abs/2203.13251) to control the Kinova Arm. 
+This repository contains the information to setup the ROS Noetic based controller part of [OpenTeach](https://open-teach.github.io/) to control the Kinova Arm. 
 
 ## Contents
 1. [Requirements](#requirements)
