@@ -1,5 +1,5 @@
-# Kinova Arm Controller - Noetic
-This repository contains the information to setup the ROS Noetic based controller part of [DIME](https://arxiv.org/abs/2203.13251) to control the Kinova Arm. We would advice you to install the Kinova SDK and run the setup.sh file in the [base repository](https://github.com/NYU-robot-learning/DIME-Controllers) for convenience and use this as a debugging tool. The base repo containing all the information can be found at [DIME - Models](https://github.com/NYU-robot-learning/DIME-Models).
+# Kinova Arm Controller - OpenTeach
+This repository contains the information to setup the ROS Noetic based controller part of [OpenTeach](https://arxiv.org/abs/2203.13251) to control the Kinova Arm. 
 
 ## Contents
 1. [Requirements](#requirements)
@@ -13,7 +13,7 @@ This repository contains the information to setup the ROS Noetic based controlle
 We need to setup the Kinova SDK before we make the C binaries for the controller. You can download the SDK from https://drive.google.com/u/0/uc?id=1UEQAow0XLcVcPCeQfHK9ERBihOCclkJ9&export=download. You should be able make the controller binaries and run the controller after this step.
 
 ## Launching the Controller <a name="launch-controller"></a>
-After installing the Kinova SDK, it is advised to run the `setup.sh` from the [base repository](https://github.com/NYU-robot-learning/DIME-Controllers) to setup the environment. But, you can also run catkin_make from the [base](https://github.com/NYU-robot-learning/DIME-Controllers) directory (where you have both - Kinova JACO arm controller and Allegro Hand controller). Do the following from this directory:
+After installing the Kinova SDK,  install this repo within the base controller package and run catkin_make from the [base](https://github.com/NYU-robot-learning/OpenTeach-Controllers) directory (where you have both - Kinova JACO arm controller and Allegro Hand controller). Do the following from this directory:
 ```
 cd <base-controller-dir>
 catkin_make
