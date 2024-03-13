@@ -25,4 +25,14 @@ source <base-controller-dir>/devel/setup.bash
 Then you can launch the Kinova Arm's roslaunch file to start controlling the robot.
 ```
 roslaunch kinova_arm kinova_robot.launch
-```# kinova-arm-controller-Openteach
+```
+
+```
+@misc{iyer2024open,
+      title={OPEN TEACH: A Versatile Teleoperation System for Robotic Manipulation}, 
+      author={Aadhithya Iyer and Zhuoran Peng and Yinlong Dai and Irmak Guzey and Siddhant Haldar and Soumith Chintala and Lerrel Pinto},
+      year={2024},
+      eprint={2403.07870},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
