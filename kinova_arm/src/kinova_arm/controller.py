@@ -7,6 +7,7 @@ import std_msgs.msg
 from sensor_msgs.msg import JointState
 import geometry_msgs.msg
 import math
+import numpy as np
 
 class KinovaController(object):
 
@@ -136,7 +137,8 @@ class KinovaController(object):
         else:    
             orientation_q = self.EulerXYZ2Quaternion(orientation_rad)
 
-        pose_mq_ = position_ + orientation_q
+        # pose_mq_ = position_ + orientation_q
+        pose_mq_ = np.concatenate([position_, orientation_q], axis=0)
 
         return pose_mq_
 
